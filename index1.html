@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #divA{
+            background-color: green;
+            border:2px solid red;
+
+            width: 200px;
+            height: 200px;
+
+            overflow: visible;
+            /* phần bị tràn khỏi khung vẫn dc hiển thị */
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        overflow: visible;(luôn hiển thị) là giá trị mặc định
+        overflow: hidden; (ẩn nội dung vượt quá kích cỡ của thẻ html)
+        overflow: auto; (hiển thị thanh  scrollbar khi ND tràn ra bên ngoài và không hiển thị thanh scrollbar khi ND không tràn ra bên ngoài )
+        overflow: scroll; (luôn hiển thị scrollbar bất kể ND có tràn ra bên ngoài hay k0)
+    </pre>
+
+    <h1>overflow: visible;</h1>
+
+    <div id="divA">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium temporibus quos inventore. Accusamus, laudantium. Perferendis non, incidunt vitae beatae sapiente veritatis corrupti aliquid nulla cupiditate at alias iure minus corporis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eaque dicta, perspiciatis ratione dignissimos sapiente quod voluptas nulla, incidunt quo ab velit facere saepe aut vero fuga, quae culpa at?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore culpa molestiae illum dicta maxime doloremque perferendis eveniet pariatur obcaecati. Fugit magni eaque natus explicabo quidem iusto mollitia vitae possimus ipsum.
+    </div>
+</body>
+</html>
